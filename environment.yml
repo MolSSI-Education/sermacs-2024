@@ -1,15 +1,23 @@
-name: sermacs-workshop
+name: sermacs-2024
 channels:
   - conda-forge
   - defaults
 dependencies:
   - python=3.11
+  - pip
   - pandas
-  - plotly
   - matplotlib
   - numpy
-  - scipy
   - jupyterlab
+  - plotly
+  - nglview
   - rdkit
-  - scikit-learn
-  - pip
+  - openbabel
+  - mdanalysis
+  - vina
+  - ipywidgets>8
+  - prolif
+  - pip:
+    - pdb2pqr
+    - meeko
+    - py3Dmol
